@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="assets/css/VisitorHeader.css"/>
+    <link rel="stylesheet" href="assets/css/VisitorMainPage.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="assets/css/reset.css"/>-->
+</head>
+<body>
+<!--header 전부 다 만든 뒤 {%block header%}식으로 처리-->
+<header id="header">
+    <div class="container">
+        <div class="row">
+            <div class="nav clearfix">
+                <div class="YIG">
+                    <img src="assets/img/yiglogo.png" height="50px" width="50px"/>
+                    <a  id="YIG" href="#" title="YIG 메인페이지로 이동">YIG</a>
+                </div>
+                <!--//YIG-->
+                <!--<button class="hidden menu">-->
+                    <!--<i class="fas fa-align-justify"></i>-->
+                <!--</button>-->
+                <div class="Main_nav">
+                    <ul class="clearfix">
+                        <li><a href="#">About YIG</a>
+                            <ul class="subnav clearfix">
+                                <li><a href="#">Introduction</a></li>
+                                <li><a href="#">Vision</a></li>
+                                <li><a href="#">Activity</a></li>
+                                <li><a href="#">History</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Recruiting</a>
+                            <ul class="subnav clearfix">
+                                <li><a href="#">Recruiting</a></li>
+                                <li><a href="#">Apply</a></li>
+                                <li><a href="#">Schedule</a></li>
+                                <li><a href="#">FAQ</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Member Profile</a></li>
+                        <li><a href="#">Fund</a>
+                            <ul class="subnav clearfix">
+                                <li><a href="#">SIM-A Fund</a></li>
+                                <li><a href="#">SIM-JS Fund</a></li>
+                                <li><a href="#">G Fund </a></li>
+                                <li><a href="#">S Fund</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Research</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!--Main Nav-->
+                <div class="account">
+                    <a class="login" href="#">LogIn</a>
+                    <a class="signup" href="#">Become a YIGIAN</a>
+                </div>
+                <!--Account Nav-->
+            </div>
+            <!--nav-->
+        </div>
+        <!--//row-->
+    </div>
+    <!--//container-->
+</header>
+<div class="body">
+    <div class="container">
+        <div class="row">
+            <ul class="lst_nav">
+                <li class="nav1">
+                    <a href="#">
+                       <span class="ico">
+                          <em>
+                            <img src="assets/img/Introduction.png"/>
+                          </em>
+                       </span>
+                        YIG 소개
+                    </a>
+                </li>
+                <li class="nav2">
+                    <a href="#">
+                        <span class="ico">
+                            <em>
+                                <img src="assets/img/applyIcon.png"/>
+                            </em>
+                        </span>
+                         지원하기
+                    </a>
+                </li>
+                <li class="nav3">
+                    <a href="#">
+                        <span class="ico">
+                            <em>
+                                <img src="assets/img/Contact.png"/>
+                            </em>
+                        </span>
+                         연락처
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--//header-->
+</body>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+<script src="assets/js/VisitorMainPage.js"></script>
+</html>
+
