@@ -1,5 +1,4 @@
 @import "reset";
-$yigcolor: #e50914;
 
 /*배경화면 설정*/
 html{
@@ -46,9 +45,7 @@ ul li{
         color: $yigcolor;
       }
     }
-    .hidden{
-      display: none;
-    }
+
     /*main nav*/
     .Main_nav{
       font-size: 16px;

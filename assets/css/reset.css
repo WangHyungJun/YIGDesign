@@ -5,6 +5,11 @@ textarea, select, fieldset, p, button {
   margin: 0;
   padding: 0; }
 
+/*container 기본*/
+.container {
+  width: 1200px;
+  margin: 0 auto; }
+
 /*링크 초기화*/
 a {
   color: #2f3743;

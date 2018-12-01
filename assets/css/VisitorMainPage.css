@@ -6,6 +6,12 @@ textarea, select, fieldset, p, button {
   padding: 0;
 }
 
+/*container 기본*/
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 /*링크 초기화*/
 a {
   color: #2f3743;
@@ -139,9 +145,6 @@ ul li {
   font-size: 20px;
   top: 12px;
   color: #e50914;
-}
-#header .nav .hidden {
-  display: none;
 }
 #header .nav .Main_nav {
   font-size: 16px;

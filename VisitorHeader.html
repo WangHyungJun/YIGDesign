@@ -1,9 +1,83 @@
 <!doctype html>
 <html>
 <head>
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/VisitorHeader.css"/>
 </head>
 <body>
+<header id="header" onmouseover="showup()">
+    <div class="container">
+        <div class="row">
+            <nav class="nav clearfix">
+                <div class="YIG">
+                    <img src="assets/img/yiglogo.png" height="50px" width="50px"/>
+                    <a  id="YIG" href="#" title="YIG 메인페이지로 이동">YIG</a>
+                    <button><i class="fas fa-align-justify"></i></button>
+                </div>
+                <!--//YIG-->
+                <div class="Main_nav">
+                    <ul class="clearfix">
+                        <li><a href="#">About YIG</a></li>
+                        <li><a href="#">Recruiting</a></li>
+                        <li><a href="#">Member Profile</a></li>
+                        <li><a href="#">Fund</a></li>
+                        <li><a href="#">Research</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!--//Main_nav-->
+                <div class="account">
+                    <a class="login" href="#">LogIn</a>
+                    <a class="signup" href="#">Become a YIGIAN</a>
+                </div>
+                <!--//Account-->
+            </nav>
+            <!--//nav clearfix-->
+        </div>
+        <!--//row-->
+    </div>
+    <!--//container-->
+</header>
+<!--//header-->
+<div class="sub_visual">
+    <div class="container">
+        <div class="sub_all" onmouseleave="disappear()">
+            <div class="sub clearfix">
+                <ul>
+                    <li><a href="#">Introduction</a></li>
+                    <li><a href="#">Vision</a></li>
+                    <li><a id="Activity" href="#">Activity</a></li>
+                    <li><a href="#">History</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Recruiting</a></li>
+                    <li><a href="#">Apply</a></li>
+                    <li><a href="#">Schedule</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+                <ul></ul>
+                <ul>
+                    <li><a href="#">SIM-A Fund</a></li>
+                    <li><a href="#">SIM-JS Fund</a></li>
+                    <li><a href="#">G Fund </a></li>
+                    <li><a href="#">S Fund</a></li>
+                </ul>
+                <ul></ul>
+                <ul></ul>
+            </div>
+            <!--//sub-->
+        </div>
+        <!--//sub_all-->
+        <section class="visual"></section>
+        <!--//visual-->
+    </div>
+    <!--//container-->
+</div>
+<!--//sub_visual-->
 
 </body>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+<script src="assets/js/VisitorHeader.js"></script>
 </html>
+
